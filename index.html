@@ -1,0 +1,85 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <style>
+    #main {
+      display: flex;
+    }
+
+    #main div {
+      -ms-flex: 1;  /* IE 10 */
+      flex: 1;
+    }
+    .cerc{
+      height: 25px;
+      width: 25px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  </style>
+
+</head>
+
+<body>
+<br><center>
+<p style="background-color: teal; width: 150px;">Exercitiul 1-/2</p>
+  <label for="x"></label><input id="x">
+  <label for="y"></label><input id="y">
+  <button id="adunare" onclick="adunare()">Suma</button>
+  <button id="schimbare" onclick="schimbare()">Schimb</button>
+  <div id="rezultat">Pana cand null</div>
+
+  <p style="background-color: teal; width: 150px;">Exercitiul 3</p>
+  <h1 id="containers" style="width: 240px" >Mouse over me!!!</h1></center>
+<br>
+
+<div id="main">
+  <div>
+    <center><p style="background-color: teal; width: 150px;">Exercitiul 4</p></center>
+    <p id="divid" align="center"></p>
+  </div>
+  <div>
+    <center><p style="background-color: teal; width: 150px;">Exercitiul 5-/6-/7-/11</p>
+    <button id="delete" onclick="sterge();">Sterge al 5-lea element</button></center>
+    <p id="lista" align="center"></p>
+  </div>
+  <div>
+    <center><p style="background-color: teal; width: 150px;">Exercitiul 8</p>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span>
+    <span class="cerc"></span></center>
+  </div>
+  <div>
+    <center><p style="background-color: teal; width: 150px;">Exercitiul 9</p>
+    [7, 6, 2, 4, 5, 6, 7, 8, 9, 2]
+    <p id="sort"></p></center>
+  </div>
+  <div>
+    <center><p style="background-color: teal; width: 150px;">Exercitiul 12</p>
+      <button id="click">Don't click</button>
+    <p id="counterBtn"></p></center>
+  </div>
+  <div>
+    <center><p style="background-color: teal; width: 150px;">Exercitiul 13</p>
+      <p id="ex"></p></center>
+  </div>
+  <div>
+    <center><p style="background-color: teal; width: 150px;">Exercitiul 14</p>
+  <li id="myLi" title="9">4</li>
+  <button onclick="myFunction()">Title value</button>
+      <p id="demo"></p></center>
+  </div>
+</div>
+  <script src="js/main.js"></script>
+</body>
