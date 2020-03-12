@@ -14,15 +14,15 @@ function schimbare(){
 }
 
 function changeColor() {
-  document.getElementById("containers").onmouseenter = function() {mouseEnter()};
-  document.getElementById("containers").onmouseleave = function() {mouseLeave()};
+  document.getElementById("container").onmouseenter = function() {mouseEnter()};
+  document.getElementById("container").onmouseleave = function() {mouseLeave()};
   function mouseEnter() {
-    document.getElementById("containers").style.backgroundColor = "red";
-    document.getElementById("containers").innerHTML = "Yessssssssss";
+    document.getElementById("container").style.backgroundColor = "red";
+    document.getElementById("container").innerHTML = "Yessssssssss";
   }
   function mouseLeave() {
-    document.getElementById("containers").style.backgroundColor = "white";
-    document.getElementById("containers").innerHTML = "Maybe again???";
+    document.getElementById("container").style.backgroundColor = "white";
+    document.getElementById("container").innerHTML = "Maybe again???";
   }
 } changeColor();
 
